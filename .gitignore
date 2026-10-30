@@ -1,0 +1,20 @@
+# Environment variables
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Vector Store and Cached Data
+vector_store/
+*.faiss
+*.pkl
+.chroma/
+
+# Streamlit
+.streamlit/
